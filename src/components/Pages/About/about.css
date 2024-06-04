@@ -1,0 +1,37 @@
+.for_students,
+.for_institutions{
+    background: #FFFAEA;
+    color: black;
+
+}
+.center-heading{
+    font-size: 30px;
+}
+.heading{
+    font-size: 30px;
+    text-align: center;
+    background: #6E84A7;
+
+}
+.poditivity{
+    padding-top: 1rem;
+    background: #6E84A7;
+    padding-left: 4rem;
+    padding-bottom: 3rem;
+}
+.text{
+    color: white;
+    font-size: 18px;
+   
+}
+.heading2{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.our{
+    font-size: 20px;
+}
+.mission{
+    font-size: 30px;
+}
