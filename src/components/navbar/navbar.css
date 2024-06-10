@@ -171,9 +171,10 @@ text-align: left;
     }
     .hi-line1{
         display: inline-block;
-        font-size: 16px;        
-      background: radial-gradient(126.96% 126.96% at 6.47% 97.81%, #FA8F21 9%, #D82D7E 78%);
-      color: transparent; /* Set text color to transparent */
+        font-size: 18px;
+        font-weight:800 ;        
+     
+      color: black; /* Set text color to transparent */
       -webkit-background-clip: text; /* Clip background to text */
       background-clip: text; /* Clip background to text */   
 font-size: 14px;
