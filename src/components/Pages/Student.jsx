@@ -2,6 +2,8 @@
 import React from 'react';
 import "./Student.css";
 import { Button, ButtonToolbar } from 'rsuite';
+import Features2 from './Features2';
+
 
 
 const Student = () => {
@@ -10,12 +12,13 @@ const Student = () => {
     <h2 className='student_header_text'> Turn Your Vision Into Reality</h2>
     <h5 className='student_header_text2'>Welcome to PODITIVITY, where students thrive and dreams take flight</h5>
   </div>
-  <div className='section_students'>
+   <div className='section_students'>
   <div className='section1'>
-    <p className='section1_text'>Advantages <br/>for Students<br/>
+    <p className='section1_text'>Advantages for Students<br/>
     <button className='register_student'>Register now</button>
     </p>
   </div>
+  {/*
   <div className='section_card'>
   <div className='card1'><h2>Safe social media</h2>
   <p>Safe and secure environment 
@@ -34,8 +37,15 @@ world leading colleges</p></div>
 </div>
 
 
+</div> */}
+<Features2/><br/>
+<section className="onest">
+        <div className="video-container">
+            <video src="images/onsetLargeScreen.mp4" autoplay loop muted>
+            </video>
+        </div>
+    </section>
 </div>
-
   
     <div className='student_footer'>
       <h2 className='student_footer_text'>Ready for an exciting journey<br/>in modern education</h2>

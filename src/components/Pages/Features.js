@@ -4,37 +4,37 @@ import './Features.css';
 const featuresData = [
   {
     id: 1,
-    image: 'images/podcast.png',
+    image: 'https://i.ibb.co/t8ZYKSy/podcast.png',
     heading: 'Podcasts',
     content: 'Unleash your voice! Poditivity lets students create and share podcasts, fostering a vibrant space for expressive learning.'
   },
   {
     id: 2,
-    image: 'images/library.png',
+    image: 'https://i.ibb.co/9VDR5VV/library.png',
     heading: 'Library Feature',
     content: 'Collaborative learning simplified! Poditivity\'s library ensures seamless sharing and retrieval of notes for effective academic support.'
   },
   {
     id: 3,
-    image: 'images/analytics.png',
+    image: 'https://i.ibb.co/m0GkYnW/analytics.png',
     heading: 'Uni Analytics',
     content: 'Empower your institution! Poditivity offers analytics for universities, enhancing insights into student engagement and academic trends.'
   },
   {
     id: 4,
-    image: 'images/connections.png',
+    image: 'https://i.ibb.co/zJSSqD8/connections.png',
     heading: 'Connections',
     content: 'Bridging the gap! Poditivity facilitates direct connections between students, universities, and corporates for seamless collaboration and growth.'
   },
   {
     id: 5,
-    image: 'images/social-platform.png',
+    image: 'https://i.ibb.co/tQ8mPdh/social-platform.png',
     heading: 'Secure Social Platform',
     content: 'Connect with confidence! Poditivity prioritizes safety, providing a secure social media space for students to engage, share, and learn.'
   },
   {
     id: 6,
-    image: 'images/events.png',
+    image: 'https://i.ibb.co/f04gx3Y/events.png',
     heading: 'Events and Workshops',
     content: 'Elevate your experience! Poditivity hosts exciting events and workshops, adding value to your academic journey through diverse learning opportunities.'
   }

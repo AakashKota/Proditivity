@@ -12,8 +12,8 @@
   
   .section1 {
     margin: 12rem;
-    padding: 1rem;
-    align-items: center;
+    padding: 0rem;
+    
     flex: 1;
     
     /* Adjust as needed */

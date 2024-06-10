@@ -32,6 +32,11 @@ const About = () => {
     </div>
     <div className='recognitions'>
       <p className='heading2_about'><h2 className='h2'>Recognitions</h2></p>
+      <div className='images'>
+  <img src="https://i.ibb.co/Z2J5f8Q/DOC-20231003-WA0003-pages-to-jpg-0001.jpg" alt="DOC-20231003-WA0003-pages-to-jpg-0001" border="0"/>
+  <img src="https://i.ibb.co/Mkw4WSn/DOC-20240223-WA0009-pages-to-jpg-0001.jpg" alt="DOC-20240223-WA0009-pages-to-jpg-0001" border="0"/>
+</div>
+
     </div>
     </>
   );

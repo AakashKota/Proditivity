@@ -75,6 +75,19 @@
 .h2 {
     color: white;
 }
+.images {
+    display: flex;
+    justify-content: center; /* Align items horizontally in the center */
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Space between the images */
+  }
+  
+  .images img {
+    padding-left: 50px;
+    margin-bottom: 20px;
+  }
+  
+  
 
 /* Responsive styling */
 @media (max-width: 1024px) {

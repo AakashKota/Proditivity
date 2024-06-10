@@ -88,20 +88,25 @@ const Home = () => {
   return (
     <>
       <div className='bg'>
-        <p className='heading'>
-          Welcome to Poditivity: Empowering Student <br />Success
-          <p className='heading2'>
-            Revolutionize your learning journey with skill development,<br /> industry connections, and cutting-edge technology.
-          </p>
-          <p className='heading3'>
-            Join us in bridging the gap between students and institutions, paving the way<br /> for a brighter future
-          </p>
-        </p>
-        <div className='button1'>Sign In</div>
-        <p className='heading4'>Already a member? <Link to="/login">Login here</Link></p>
-        <div className='image_container_home'><img src='https://i.ibb.co/NVRmM6L/main-page-image.png' alt='home image' style={{ height: '500px', width: '400px' }}/>
+      <div className="container_home">
+  <div className="text-content">
+    <p className="heading">
+      Welcome to Poditivity: Empowering Student <br />Success
+      <p className="heading2">
+        Revolutionize your learning journey with skill development,<br /> industry connections, and cutting-edge technology.
+      </p>
+      <p className="heading3">
+        Join us in bridging the gap between students and institutions, paving the way<br /> for a brighter future
+      </p>
+    </p>
+    <div className="button1">Sign In</div>
+    <p className="heading4">Already a member? <Link to="/login">Login here</Link></p>
+  </div>
+  <div className="image_container_home">
+    <img src="https://i.ibb.co/NVRmM6L/main-page-image.png" alt="home image" style={{ height: '500px', width: '400px' }} />
+  </div>
+</div>
 
-        </div>
         <div className='center-heading'><center>What we offer at Poditivity</center></div>
         <div className='offerings'>
           <div className='for_students'>
@@ -232,10 +237,7 @@ const Home = () => {
 		<input type="email" class="form__email" placeholder="Enter your email address" />
 		<button class="form__button">Send</button>
 	</div>
-	<div class="notice">
-		<input type="checkbox"/>
-		<span class="notice__copy">I agree to my email address being stored and uses to recieve monthly newsletter.</span>
-	</div>
+
 </div>
     </>
   );
