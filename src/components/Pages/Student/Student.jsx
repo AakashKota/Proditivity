@@ -2,7 +2,7 @@
 import React from 'react';
 import "./Student.css";
 import { Button, ButtonToolbar } from 'rsuite';
-import Features2 from './Features2';
+import Features2 from '../Features2';
 
 
 
@@ -41,7 +41,7 @@ world leading colleges</p></div>
 <Features2/><br/>
 <section className="onest">
         <div className="video-container">
-            <video src="images/onsetLargeScreen.mp4" autoplay loop muted>
+            <video src="https://drive.google.com/file/d/1yCLIaI_sUWyjmGYzoC3ELE4PnFJA7dwi/view?usp=sharing" autoplay loop muted>
             </video>
         </div>
     </section>

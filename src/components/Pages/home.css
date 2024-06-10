@@ -21,6 +21,49 @@ font-size: 30px;
 font-weight: 400;
 text-align: left;
 }
+.form {
+  display: flex;
+  align-items: center;
+}
+
+.form__email {
+  flex: 1;
+  padding: 10px;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+.form__button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #007BFF; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.svg-wrapper-1,
+.svg-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.svg-wrapper svg {
+  fill: white; /* SVG fill color */
+}
+
+.form__button span {
+  margin-left: 8px; /* Space between SVG and text */
+}
+
+.form__button:hover {
+  background-color: #0056b3; /* Hover background color */
+}
+
 .heading3{
    color: white;
 font-size: 24px;
@@ -96,23 +139,84 @@ text-align: center;
   }
   .auth-container {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
+   
     margin-top: 20px; /* Optional: to add some space from the list */
+  }
+  .Signup{
+    background-color: #0F121F;
   }
   
   .Signup, .KnowMore {
-    margin: 0 0px; /* Adjust the margin as needed to space the elements */
-    padding: 10px 20px; /* Optional: to add padding to the elements */
-    background-color: #6E84A7; /* Optional: background color */
+    margin: 0 80px; /* Adjust the margin as needed to space the elements */
+    padding: 5px 30px; 
+    align-items: center;/* Optional: to add padding to the elements */
+    height: 30px; /* Optional: background color */
     color: white; /* Optional: text color */
     border-radius: 5px; /* Optional: rounded corners */
     cursor: pointer; /* Optional: change cursor to pointer */
   }
   
-  .Signup:hover, .KnowMore:hover {
-    background-color: #5a6b8c; /* Optional: change background on hover */
+  
+  button {
+    font-family: inherit;
+    font-size: 18px;
+    background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
+    color: white;
+    padding: 0.8em 1.2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
   }
+  
+  button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  button span {
+    display: block;
+    margin-left: 0.4em;
+    transition: all 0.3s;
+  }
+  
+  button svg {
+    width: 18px;
+    height: 18px;
+    fill: white;
+    transition: all 0.3s;
+  }
+  
+  button .svg-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.2);
+    margin-right: 0.5em;
+    transition: all 0.3s;
+  }
+  
+  button:hover .svg-wrapper {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  button:hover svg {
+    transform: rotate(45deg);
+  }
+  
+  
 /* Font */
 @import url('https://fonts.googleapis.com/css?family=Quicksand:400,700');
 

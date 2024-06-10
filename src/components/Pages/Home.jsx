@@ -6,35 +6,29 @@ import { Link } from 'react-router-dom';
 import Features from './Features';
 
 const Home = () => {
-  const [faqs, setFaqs] = useState([
+  const [faqs,setFaqs]= useState([
     {
       question: "Sign up and create an institutional profile on Poditivity.",
-      answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
-      open: false
+     
     },
     {
       question: "Seamlessly integrate all students and faculty members into the platform.",
-      answer: "You! The viewer!",
-      open: false
+      
     },
     {
       question:
         "Facilitate smooth and effective communication between students, faculty, and administration.",
-      answer: "This many!",
-      open: false
+     
     },
     {
       question:
         "Access and share a wide range of educational resources and tools.",
-      answer: "This many!",
-      open: false
+     
     },
     {
       question:
         "Benefit from continuous support from our dedicated team.",
-      answer: "This many!",
-      open: false
+      
     }
   ]);
 
@@ -234,9 +228,20 @@ const Home = () => {
 	<h2 class="subscribe__title">Let's keep in touch</h2>
 	<p class="subscribe__copy">Subscribe to keep up with fresh news and exciting updates. We promise not to spam you!</p>
 	<div class="form">
-		<input type="email" class="form__email" placeholder="Enter your email address" />
-		<button class="form__button">Send</button>
-	</div>
+  <input type="email" class="form__email" placeholder="Enter your email address" />
+  <button class="form__button">
+    <div class="svg-wrapper-1">
+      <div class="svg-wrapper">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+          <path fill="none" d="M0 0h24v24H0z"></path>
+          <path fill="currentColor" d="M1.946 9.315c-.522-.174-.527-.455.01-.634l19.087-6.362c.529-.176.832.12.684.638l-5.454 19.086c-.15.529-.455.547-.679.045L12 14l6-8-8 6-8.054-2.685z"></path>
+        </svg>
+      </div>
+    </div>
+    <span>Send</span>
+  </button>
+</div>
+
 
 </div>
     </>

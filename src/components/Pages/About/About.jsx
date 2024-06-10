@@ -4,13 +4,14 @@ import "./about.css";
 
 const About = () => {
   return (<>
-    <div className='center-heading1'><center><h2 className='h2'>For Students <br/>By Students!!</h2></center></div>
+    <div className='center-heading12'><center><h2 className='h2'>For Students <br/>By Students!!</h2></center></div>
     <div className='offerings'>
     <div className='for_students_about'>
           <div className='mission-text'>
           
             <p className='our'>Our <h2>Mission</h2></p>
-            <p className='text_student'>Empower every student to achieve their fullest potential through seamless access to upskilling, mentorship, and holistic support.</p>
+            <p className='text_student'>Empower every student to achieve their fullest potential through seamless access to upskilling,
+               mentorship, and holistic support.</p>
           </div>
           <img src="https://i.ibb.co/txDNQZB/mission.png" alt="mission" border="0" className='mission-image'/>
         </div>
@@ -18,7 +19,8 @@ const About = () => {
     <div className='for_students_about'>
       <div className='mission_text'>
         <p className='our'>Our<h2>Vision</h2></p> 
-   <p className='text_student'>To bridge the communication gap between students and institutions, fostering an inclusive community that equips students with essential skills, resources, and opportunities for success.</p>
+   <p className='text_student'>To bridge the communication gap between students and institutions, fostering an inclusive community that equips 
+    students with essential skills, resources, and opportunities for success.</p>
    </div>
    <img src="https://i.ibb.co/GxGr65c/vision.png" alt="vision" border="0" className='mission-image'/>
 </div>

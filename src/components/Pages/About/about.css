@@ -6,6 +6,15 @@
     margin: 5rem;
     padding: 2rem;
 }
+.offerings{
+    height: auto;
+    width: fit-content;
+}
+.mission-image {
+    height: 200px; /* Set a fixed height for the images */
+    width: 100px; /* Let the width adjust automatically to maintain aspect ratio */
+  }
+  
 /* src/pages/home.css */
 .for_students_about {
     display: flex;
@@ -28,7 +37,7 @@
     margin-left: 0px;
   }
   
-.center-heading1 {
+.center-heading12 {
     font-size: 30px;
     color: white;
 }
@@ -77,14 +86,15 @@
 }
 .images {
     display: flex;
-    justify-content: center; /* Align items horizontally in the center */
-    align-items: center; /* Align items vertically in the center */
-    gap: 20px; /* Space between the images */
+    width: 500px;
+    
+margin-left: 300px;
+    gap: 80px; /* Space between the images */
   }
   
   .images img {
-    padding-left: 50px;
-    margin-bottom: 20px;
+    margin-top:100px;
+    margin-bottom:150px;
   }
   
   

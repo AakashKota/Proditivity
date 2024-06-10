@@ -56,7 +56,6 @@ const Feature = ({ image, heading, content }) => (
 
 const Features = () => (
   <section className="features" id="features">
-    
     <div className="features-container">
       {featuresData.map(feature => (
         <Feature key={feature.id} {...feature} />
