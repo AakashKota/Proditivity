@@ -11,8 +11,14 @@
     width: fit-content;
 }
 .mission-image {
-    height: 200px; /* Set a fixed height for the images */
-    width: 100px; /* Let the width adjust automatically to maintain aspect ratio */
+    align-items: center;
+    height: 300px; /* Set a fixed height for the images */
+    width: 150px; /* Let the width adjust automatically to maintain aspect ratio */
+  }
+  .vision {
+    font-size: 2em; /* Adjust the size as needed */
+    font-weight: bold;
+    display: block; /* Ensures "Vision" starts on a new line */
   }
   
 /* src/pages/home.css */
@@ -29,8 +35,8 @@
   .mission-image {
     padding-top: 0.5rem;
     padding-left: 0.035rem;
-    height: 50px;
-    width: 50px;
+    height: 80px;
+    width: 65px;
   }
   
   .text_student {

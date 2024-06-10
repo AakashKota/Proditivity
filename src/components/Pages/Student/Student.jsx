@@ -14,8 +14,8 @@ const Student = () => {
   </div>
    <div className='section_students'>
   <div className='section1'>
-    <p className='section1_text'>Advantages for Students<br/>
-    <button className='register_student'>Register now</button>
+    <p className='section1_text'>Advantages <br/>for Students<br/>
+    {/* <button className='register_student'>Register now</button> */}
     </p>
   </div>
   {/*
@@ -41,6 +41,7 @@ world leading colleges</p></div>
 <Features2/><br/>
 <section className="onest">
         <div className="video-container">
+          
             <video src="https://drive.google.com/file/d/1yCLIaI_sUWyjmGYzoC3ELE4PnFJA7dwi/view?usp=sharing" autoplay loop muted>
             </video>
         </div>
@@ -48,6 +49,8 @@ world leading colleges</p></div>
 </div>
   
     <div className='student_footer'>
+    <h2><a href='https://onest.network/' style={{ textDecoration: 'none', color: 'black' }}>Powered by onest</a>
+    </h2>
       <h2 className='student_footer_text'>Ready for an exciting journey<br/>in modern education</h2>
       <Button className='student_register'>
        <p className='register_text'> Register Now</p>

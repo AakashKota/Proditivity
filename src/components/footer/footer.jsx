@@ -40,9 +40,14 @@ function Footer() {
     </div>
 </div>
 
+
         
         
       </div>
+      <div className="poditivity_copyright">
+  <h5>️ Poditivity (Poditivity Advertising & Education Pvt Ltd).<br/>
+  All Rights Reserved</h5>
+</div>
     </footer>
   
     </>

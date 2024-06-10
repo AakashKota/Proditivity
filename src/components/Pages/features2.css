@@ -1,6 +1,6 @@
 
 .features-container {
-    min-height: 100vh;
+    min-height: 95vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* Create two columns */
     gap: 4rem;
@@ -26,6 +26,7 @@
     flex-direction: column;
     gap: 1rem;
     border-radius: 1rem;
+    width:19.5rem;
     cursor: pointer;
     background-color: hsl(0, 100%, 87%);
     border: solid hsl(0, 100%, 74%);
@@ -64,16 +65,16 @@
 
 .feature1:nth-child(2n):hover {
     transition: background-color .5s ease-in-out;
-    border: solid hsl(0, 100%, 74%);
-    background-color: hsl(0, 100%, 74%);
-    box-shadow: 0 0 1rem 0.1rem hsl(0, 100%, 54%);
+    border: solid rgb(110,132,167);
+    background-color: rgb(110,132,167);
+    box-shadow: 0 0 1rem 0.1rem rgb(110,132,167);
 }
 
 .feature1:nth-child(2n - 1):hover {
     transition: background-color .5s ease-in-out;
-    border: solid hsl(240, 100%, 74%);
-    background-color: hsl(240, 100%, 74%);
-    box-shadow: 0 0 1rem 0.1rem hsl(240, 100%, 54%);
+    border: solid rgb(110,132,167);
+    background-color:rgb(110,132,167);
+    box-shadow: 0 0 1rem 0.1remrgb(110,132,167);
 }
 
 @keyframes rotate {

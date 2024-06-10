@@ -35,32 +35,27 @@ const Home = () => {
   const [newFaqs, setNewFaqs] = useState([
     {
       question: "Who are we?",
-      answer: "Poditivity is a platform that empowers student success by providing skill development, industry connections, and cutting-edge technology.",
+      answer: "At Podivity, we transcend beyond merely being a social media platform;we represnt a movement fueled by students, cateringto students. Our objective is to equip each learner in India with the essiential tools, assistance, and network required for academic excellence. We acknowledge the obstacles learners encounter and are dedicatedto offering pioneering remedies to tackle them",
       open: false
     },
     {
       question: "What opportunities do we have?",
-      answer: "You can sign up by clicking the 'Sign Up' button and following the registration process.",
+      answer: "As an intern at Poditivity, your role will revolve aeound solving the key challanges within our platform. Whether you're into frontend or backend development, or any field like content/podcasting/UI,UX any many more. What specific problems do you envision yourself addressing to enhance the student experience, We at Poditivity will provide you with internship!",
       open: false
     },
     {
       question: "What sets Poditivity apart from other social media platforms?",
-      answer: "Yes, Poditivity offers free communication and management support for institutions and students.",
+      answer: "Distinct from conventional social media networks, Poditivity is designed to cater to the unique requirements of college students. It merges the interractive elements of social media with a strong emphasis on education. Poditivity provides features like study circles, scholarly materials, and curated content, guaranteeing that students participate in valuable educational experiences and bond with people sharing similar intrests in concentrated setting.",
       open: false
     },
     {
       question: "How can we join Poditivity team?",
-      answer: "Poditivity offers personalized learning experiences, performance analytics, a secure social media platform, and more.",
+      answer: "We have multiple positions open for developers, interns, and more. Check our 'Join Us'/'Apply'section for details.",
       open: false
     },
     {
       question: "What stage is poditivity app in",
-      answer: "Poditivity offers personalized learning experiences, performance analytics, a secure social media platform, and more.",
-      open: false
-    },
-    {
-      question: "How can institutions benefit from Poditivity?",
-      answer: "Institutions can benefit from easy online registration, interactive learning tools, a customized dashboard, and more.",
+      answer: "We are currently in active development, preparing to launch a beta version soon.",
       open: false
     }
   ]);
@@ -94,29 +89,32 @@ const Home = () => {
       </p>
     </p>
     <div className="button1">Sign In</div>
-    <p className="heading4">Already a member? <Link to="/login">Login here</Link></p>
+    <p className="heading4">Already a member? <Link to="/login"><font  style={{color:'white'}}> Login here </font></Link></p>
   </div>
   <div className="image_container_home">
-    <img src="https://i.ibb.co/NVRmM6L/main-page-image.png" alt="home image" style={{ height: '500px', width: '400px' }} />
+    <img src="https://i.ibb.co/NVRmM6L/main-page-image.png" alt="home image" style={{ height: '500px', width: '400px' , marginBottom:'5rem' }} />
   </div>
 </div>
 
         <div className='center-heading'><center>What we offer at Poditivity</center></div>
         <div className='offerings'>
-          <div className='for_students'>
-            <h3>For Students</h3>
-            <ul>
-              <li>Master new skills with our exciting workshops and courses designed just for you.</li>
-              <li>Utilize AI-driven technology for personalized learning experiences and performance analytics.</li>
-              <li>Engage in a secure, supportive social media platform designed for students.</li>
-              <li>Join a thriving multi-college community of like-minded students.</li>
-              <li>Benefit from better communication tools with your institution.</li>
-            </ul>
-            <div className="auth-container">
-              <div className="Signup">Sign up now</div>
-              <div className="KnowMore">Sign In</div>
-            </div>
-          </div>
+  <div className='for_students'>
+    <h3>For Students</h3>
+    <ul>
+      <li>Master new skills with our exciting workshops and courses designed just for you.</li>
+      <li>Utilize AI-driven technology for personalized learning experiences and performance analytics.</li>
+      <li>Engage in a secure, supportive social media platform designed for students.</li>
+      <li>Join a thriving multi-college community of like-minded students.</li>
+      <li>Benefit from better communication tools with your institution.</li>
+    </ul>
+    <img src="https://i.ibb.co/s5rWTSL/student.png" alt="vision" className='mission-image' />
+    <div className="auth-container">
+      <div className="Signup">Sign up now</div>
+      <div className="KnowMore">Sign In</div>
+    </div>
+  </div>
+
+
           <div className='for_institutions'>
             <h3>For Institutions</h3>
             <ul>
@@ -126,6 +124,7 @@ const Home = () => {
               <li>Customized dashboard to monitor Faculty and Students.</li>
               <li>ONEST decentralized network integration.</li>
             </ul>
+            <img src="https://i.ibb.co/W053p1h/college.png" alt="vision" className='mission-image' />
             <div className="auth-container">
               <div className="Signup">Sign up now</div>
               <div className="KnowMore">Sign In</div>

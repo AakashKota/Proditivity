@@ -63,11 +63,71 @@ text-align: left;
 .form__button:hover {
   background-color: #0056b3; /* Hover background color */
 }
+.for_students {
+  position: relative; /* Make the container position relative */
+}
+.for_students, .for_institutions {
+  position: relative; /* Make the container position relative */
+}
+
+.mission-image {
+  position: absolute; /* Position the image absolutely within the container */
+  top: 0; /* Align to the top */
+  right: 0; /* Align to the right */
+  width: 100px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.auth-container {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.Signup, .KnowMore {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust background color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Signup:hover, .KnowMore:hover {
+  background-color: #0056b3; /* Adjust hover background color */
+}
+
+.mission-image {
+  position: absolute; /* Position the image absolutely within the container */
+  top: 0; /* Align to the top */
+  right: 0; /* Align to the right */
+  width: 80px; /* Adjust width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.auth-container {
+  margin-top: 20px; /* Adjust margin as needed */
+}
+
+.Signup, .KnowMore {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #007bff; /* Adjust background color */
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Signup:hover, .KnowMore:hover {
+  background-color: #0056b3; /* Adjust hover background color */
+}
 
 .heading3{
    color: white;
-font-size: 24px;
-font-weight: 300;
+    font-size: 16px;
+  font-weight: 300;
 
 text-align: left;
 
@@ -76,12 +136,12 @@ text-align: left;
     background-color: black;
     color: white; /* Set text color to white */
     font-size: 24px;
-    padding: 1rem;
+    
     align-items: center;
-    padding-left: 5rem;
-    padding-right: 5rem;
+  
+   
     display: inline-block;
-    margin-left: 7rem;     
+    margin-left: 1rem;     
     box-shadow: 10px 9px 0 rgba(0, 0, 0, 0.5);/* Ensure the button is displayed inline */
   }
   .heading4{
@@ -92,7 +152,7 @@ text-align: left;
     line-height: 22.68px;
     text-align: left;
     
-    margin-left: 7rem; 
+    margin-left: 1rem; 
   }
   .center-heading{
     margin: 5rem;
@@ -144,6 +204,9 @@ text-align: center;
     margin-top: 20px; /* Optional: to add some space from the list */
   }
   .Signup{
+    background-color: #0F121F;
+  }
+  .KnowMore{
     background-color: #0F121F;
   }
   
@@ -373,7 +436,7 @@ img {
   font-weight: bold;
 }
 
-.heading2, .heading3, .heading4 {
+.heading2,  .heading4 {
   font-size: 1.5rem; /* Adjust as per your design */
 }
 

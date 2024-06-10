@@ -18,8 +18,25 @@
     
     /* Adjust as needed */
   }
+  .student_footer {
+    display: flex;
+    background: #6E84A7;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center; /* Center align text inside the div */
+  }
+  
+  .student_register {
+    margin-top: 20px;
+    background  : blue;
+    color: black; /* Adjust margin as needed */
+  }
+  
   .section1_text {
-    font-size: 1.5em; /* Adjust the font size as needed */
+    font-size: 1.5em;
+    align-items: center;
+   text-align: center; /* Adjust the font size as needed */
   }
   
   .section_card {
@@ -50,6 +67,12 @@
 
     /* color: white; */
   }
+  .student_register {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+  }
+  
   .register_student{
     background: black;
     color: white;
@@ -60,9 +83,9 @@
   .section1_text{
     color: white;
     font-weight: 400;
-    font-size: 42px;
-    text-align: left;
-    margin-left: 2rem;
+    font-size: 40px;
+
+    margin-left: 0rem;
   }
   
   .section_card {
@@ -97,6 +120,7 @@
   }
 
   .student_header{
+    margin: 0;
     padding: 2rem;
     background: #6E84A7;
     
@@ -105,10 +129,11 @@
     text-align: center;
   }
   .student_header_text{
-    font-size: 38px;
-    font-weight: 600;
+    letter-spacing: 0.25rem;
+    font-size: 40px;
+    font-weight: 900;
   }
   .student_header_text2{
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
   }

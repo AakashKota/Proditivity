@@ -23,6 +23,12 @@
     color: #666;
     font-weight: 300;
   }
+  .sec2frmtitle{
+    font-weight: 800;
+    font-size: 1.8vw; /* Adjust font-size for responsiveness */
+    font-style: underline;
+    margin-bottom: 2rem;
+  }
   
   /* Contact Form Styling */
   .container {
@@ -158,11 +164,14 @@
     padding: 15px 40px;
     color: #fff;
     border: 0;
-    background: #A44DD8;
+    background: black;
     font-size: 16px;
     text-transform: uppercase;
     margin: 10px 0;
+    margin-left: 220px;
     cursor: pointer;
+    align-items: center;
+  
   }
   
   .section2 .sec2contactform h3 {
@@ -175,17 +184,18 @@
   }
   
   .form-group {
-    margin-bottom: 20px; /* Space between form groups */
+    margin-bottom: 20px; 
+    /* Space between form groups */
   }
   
   .input-pair {
     display: flex;
     justify-content: space-between;
-    gap: 10px; /* Space between input fields */
+    gap: 20px; /* Space between input fields */
   }
   
   .input-group {
-    flex: 1;
+    flex: 2;
     display: flex;
     flex-direction: column;
   }

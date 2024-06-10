@@ -7,12 +7,17 @@ import Blog from './components/Pages/Blog'; // Make sure these pages exist
 import Contact from './components/Pages/Contact'; // Make sure these pages exist
 import Footer from './components/footer/footer';
 import Student from './components/Pages/Student/Student';
+
+
 import Institute from './components/Pages/Institute';
+import { scrollTop } from 'rsuite/esm/DOMHelper';
+import ScrollToTop from './components/Scrolltotop';
 
 function App() {
   return (
     <Router>
       <NavBar />
+      <ScrollToTop/>
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />

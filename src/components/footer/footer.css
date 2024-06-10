@@ -8,6 +8,15 @@
     margin: 0;
     border-bottom: 1px solid grey;
   }
+  .poditivity_copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    text-align: center;
+    height: 100%; /* Optional, adjust based on your layout */
+  }
+  
   
   .footer {
     background-color: #A4D1F4;
