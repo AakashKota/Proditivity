@@ -1,37 +1,178 @@
-.for_students,
-.for_institutions{
+/* General styling */
+.for_students_about,
+.for_institutions_about {
     background: #FFFAEA;
     color: black;
-
+    margin: 5rem;
+    padding: 2rem;
 }
-.center-heading{
+/* src/pages/home.css */
+.for_students_about {
+    display: flex;
+    
+    justify-content: flex-start;
+  }
+  
+  .for_students_about .our {
+    margin-right: 20px;
+  }
+  
+  .mission-image {
+    padding-top: 0.5rem;
+    padding-left: 0.035rem;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .text_student {
+    margin-left: 0px;
+  }
+  
+.center-heading1 {
     font-size: 30px;
+    color: white;
 }
-.heading{
+
+.heading_about {
     font-size: 30px;
     text-align: center;
     background: #6E84A7;
-
+    font-weight: bold;
 }
-.poditivity{
+
+.poditivity {
     padding-top: 1rem;
     background: #6E84A7;
     padding-left: 4rem;
-    padding-bottom: 3rem;
+    padding-bottom: 8%;
+    margin-bottom: 3rem;
 }
-.text{
+
+.text {
     color: white;
     font-size: 18px;
-   
 }
-.heading2{
+
+.text_student,
+.text_institution {
+    font-weight: 500;
+}
+
+.heading2_about {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
-.our{
+
+.our {
     font-size: 20px;
 }
-.mission{
+
+.mission {
     font-size: 30px;
+}
+
+.h2 {
+    color: white;
+}
+
+/* Responsive styling */
+@media (max-width: 1024px) {
+    .for_students_about,
+    .for_institutions_about {
+        margin: 3rem;
+        padding: 1.5rem;
+    }
+    
+    .poditivity {
+        padding-left: 2rem;
+        padding-bottom: 6%;
+    }
+    
+    .center-heading1, .heading_about, .heading2_about, .mission {
+        font-size: 28px;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+    
+    .our {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .for_students_about,
+    .for_institutions_about {
+        margin: 2rem;
+        padding: 1rem;
+    }
+    
+    .poditivity {
+        padding-left: 1rem;
+        padding-bottom: 4%;
+    }
+    
+    .center-heading1, .heading_about, .heading2_about, .mission {
+        font-size: 24px;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+    
+    .our {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .for_students_about,
+    .for_institutions_about {
+        margin: 2rem;
+        padding: 1rem;
+    }
+
+    .poditivity {
+        padding-left: 1rem;
+        padding-bottom: 4%;
+    }
+
+    .center-heading1, .heading_about, .heading2_about, .mission {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 16px;
+    }
+
+    .our {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .for_students_about,
+    .for_institutions_about {
+        margin: 1rem;
+        padding: 0.5rem;
+    }
+
+    .poditivity {
+        padding-left: 0.5rem;
+        padding-bottom: 2%;
+    }
+
+    .center-heading1, .heading_about, .heading2_about, .mission {
+        font-size: 20px;
+    }
+
+    .text {
+        font-size: 14px;
+    }
+
+    .our {
+        font-size: 16px;
+    }
 }

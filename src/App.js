@@ -6,6 +6,7 @@ import About from './components/Pages/About/About'; // Make sure these pages exi
 import Blog from './components/Pages/Blog'; // Make sure these pages exist
 import Contact from './components/Pages/Contact'; // Make sure these pages exist
 import Footer from './components/footer/footer';
+import Student from './components/Pages/Student';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
+        <Route exact path="/student" element={<Student />} />
         <Route exact path="/contact" element={<Contact />} />
       </Routes>
       <Footer />

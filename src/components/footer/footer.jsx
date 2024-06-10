@@ -14,7 +14,6 @@ function Footer() {
     <>
     <div className="footer1">
     <Marquee />
-    <hr style={{ borderColor: "black" }} />
     </div>
     
     <footer className="footer">
