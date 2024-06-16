@@ -13,7 +13,7 @@ const About = () => {
             <p className='text_student'>Empower every student to achieve their fullest potential through seamless access to upskilling,
                mentorship, and holistic support.</p>
           </div>
-          <img src="https://i.ibb.co/txDNQZB/mission.png" alt="mission" border="0" className='mission-image'/>
+          {/* <img src="https://i.ibb.co/txDNQZB/mission.png" alt="mission" border="0" className='mission-image'/> */}
         </div>
 
     <div className='for_students_about'>
@@ -22,7 +22,7 @@ const About = () => {
    <p className='text_student'>To bridge the communication gap between students and institutions, fostering an inclusive community that equips 
     students with essential skills, resources, and opportunities for success.</p>
    </div>
-   <img src="https://i.ibb.co/GxGr65c/vision.png" alt="vision" border="0" className='mission-image'/>
+   {/* <img src="https://i.ibb.co/GxGr65c/vision.png" alt="vision" border="0" className='mission-image'/> */}
 </div>
     </div>
     <div className='poditivity'>

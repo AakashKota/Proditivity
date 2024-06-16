@@ -1,0 +1,29 @@
+.Poditivity_Bg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5rem;
+    /* Adjust as needed */
+    text-align: center;
+}
+
+.ComingSoon {
+    font-size: 64px; /* Adjust as needed */
+    font-weight: bold;
+    color: #ADA896;
+    margin-bottom: 1rem; /* Adjust spacing as needed */
+}
+
+.Poditivity_Bg p {
+    font-size: 22px;
+    color: #ADA896; /* Adjust as needed */
+}
+.HomeR{
+    width: 7rem;
+    border-radius: 0;
+    background: black;
+    box-shadow: 10px 9px 0 #0F121F;
+    margin-bottom: 10rem;
+    cursor: pointer;
+}

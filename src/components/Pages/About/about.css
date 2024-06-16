@@ -1,48 +1,42 @@
 /* General styling */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
 .for_students_about,
 .for_institutions_about {
     background: #FFFAEA;
     color: black;
     margin: 5rem;
     padding: 2rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center; /* Center align items vertically */
 }
+
 .offerings{
     height: auto;
     width: fit-content;
 }
+
 .mission-image {
     align-items: center;
     height: 300px; /* Set a fixed height for the images */
     width: 150px; /* Let the width adjust automatically to maintain aspect ratio */
-  }
-  .vision {
+}
+
+.vision {
     font-size: 2em; /* Adjust the size as needed */
     font-weight: bold;
     display: block; /* Ensures "Vision" starts on a new line */
-  }
-  
-/* src/pages/home.css */
-.for_students_about {
-    display: flex;
-    
-    justify-content: flex-start;
-  }
-  
-  .for_students_about .our {
-    margin-right: 20px;
-  }
-  
-  .mission-image {
-    padding-top: 0.5rem;
-    padding-left: 0.035rem;
-    height: 80px;
-    width: 65px;
-  }
-  
-  .text_student {
+}
+
+.text_student {
     margin-left: 0px;
-  }
-  
+}
+
 .center-heading12 {
     font-size: 30px;
     color: white;
@@ -90,20 +84,18 @@
 .h2 {
     color: white;
 }
+
 .images {
     display: flex;
     width: 500px;
-    
-margin-left: 300px;
+    margin-left: 300px;
     gap: 80px; /* Space between the images */
-  }
-  
-  .images img {
-    margin-top:100px;
-    margin-bottom:150px;
-  }
-  
-  
+}
+
+.images img {
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
 
 /* Responsive styling */
 @media (max-width: 1024px) {
@@ -111,23 +103,37 @@ margin-left: 300px;
     .for_institutions_about {
         margin: 3rem;
         padding: 1.5rem;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items horizontally */
+        text-align: center; /* Center align text */
     }
-    
+
     .poditivity {
         padding-left: 2rem;
         padding-bottom: 6%;
     }
-    
+
     .center-heading1, .heading_about, .heading2_about, .mission {
         font-size: 28px;
     }
-    
+
     .text {
         font-size: 16px;
     }
-    
+
     .our {
         font-size: 18px;
+    }
+
+    .images {
+        width: 100%;
+        margin-left: 0;
+        gap: 20px; /* Adjust space between images */
+    }
+
+    .images img {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -136,31 +142,9 @@ margin-left: 300px;
     .for_institutions_about {
         margin: 2rem;
         padding: 1rem;
-    }
-    
-    .poditivity {
-        padding-left: 1rem;
-        padding-bottom: 4%;
-    }
-    
-    .center-heading1, .heading_about, .heading2_about, .mission {
-        font-size: 24px;
-    }
-    
-    .text {
-        font-size: 16px;
-    }
-    
-    .our {
-        font-size: 18px;
-    }
-}
-
-@media (max-width: 768px) {
-    .for_students_about,
-    .for_institutions_about {
-        margin: 2rem;
-        padding: 1rem;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items horizontally */
+        text-align: center; /* Center align text */
     }
 
     .poditivity {
@@ -178,6 +162,17 @@ margin-left: 300px;
 
     .our {
         font-size: 18px;
+    }
+
+    .images {
+        width: 100%;
+        margin-left: 0;
+        gap: 20px; /* Adjust space between images */
+    }
+
+    .images img {
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
 }
 
@@ -186,6 +181,9 @@ margin-left: 300px;
     .for_institutions_about {
         margin: 1rem;
         padding: 0.5rem;
+        flex-direction: column; /* Stack elements vertically */
+        align-items: center; /* Center align items horizontally */
+        text-align: center; /* Center align text */
     }
 
     .poditivity {
@@ -203,5 +201,16 @@ margin-left: 300px;
 
     .our {
         font-size: 16px;
+    }
+
+    .images {
+        width: 100%;
+        margin-left: 0;
+        gap: 10px; /* Adjust space between images */
+    }
+
+    .images img {
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 }

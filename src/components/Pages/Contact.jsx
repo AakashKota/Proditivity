@@ -76,7 +76,7 @@ const ContactUs = () => {
               />
               Student
             </label>
-            <label style={{padding:"15.5rem", border:'1px'}}>
+            <label style={{padding:"10rem", border:'1px'}}>
               <input
                 type="radio"
                 name="userType"

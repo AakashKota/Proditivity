@@ -1,0 +1,212 @@
+.Institute_header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.Edu {
+    font-size: 2.5em;
+    color: white;
+}
+
+.Advantages, .Advantages2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6E84A7;
+}
+
+.Advantages2 {
+    padding: 5em 0;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.DigitalProcess {
+    flex: 1 1 30%;
+    min-width: 200px;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 5em;
+    background-color: #f0f0f0;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.advantages {
+    font-size: 2em;
+    padding-top: 2em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signupInstitute {
+    padding-top: 4.25em;
+    margin-left: 2em;
+}
+
+.steps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.steps_text {
+    color: white;
+    margin-top: 1.2em;
+    font-size: 2.5em;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+}
+
+.steps_images {
+    margin: 7em 0 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Invest_Now {
+    margin: 7em 0 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.InvestNow {
+    width: 8em;
+    font-size: 1.5em;
+    padding: 1.25rem;
+    font-family: "Poppins", sans-serif;
+    background: #0F121F;
+    color: white;
+    border: 2px solid #0F121F;
+    box-shadow: 10px 9px 0 #0F121F;
+}
+
+.signup {
+    background-color: #1D2D3D;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 5px;
+    width: 10em;
+    cursor: pointer;
+}
+
+.welcome {
+    font-size: 1.2em;
+    color: white;
+    margin-bottom: 2em;
+}
+
+.Advantages2, .Advantages3 {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.DigitalProcess {
+    margin: 0 10px;
+}
+
+.signupInstitute .signup {
+    background-color: #0F121F;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Footer_Institute {
+    background: #A4D1F4;
+    margin-bottom: -1rem;
+    padding: 2.5rem;
+    margin-top: -2rem;
+}
+
+.app_institute {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #999999;
+}
+
+.app1 {
+    color: rgb(42, 42, 171);
+}
+
+.News {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5em;
+    font-weight: 600;
+    padding-top: 10rem;
+    margin-top: 5rem;
+}
+
+/* Responsive styles */
+@media (max-width: 1200px) {
+    .DigitalProcess {
+        flex: 1 1 45%;
+        max-width: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .DigitalProcess {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .Edu {
+        font-size: 2em;
+    }
+
+    .advantages {
+        font-size: 1.5em;
+    }
+
+    .steps_text {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 480px) {
+    .Edu {
+        font-size: 1.5em;
+    }
+
+    .advantages {
+        font-size: 1.2em;
+    }
+
+    .steps_text {
+        font-size: 1.5em;
+    }
+
+    .InvestNow {
+        width: 6em;
+        font-size: 1.2em;
+    }
+
+    .signup {
+        width: 8em;
+    }
+
+    .welcome {
+        font-size: 1em;
+    }
+
+    .News {
+        font-size: 2em;
+    }
+}

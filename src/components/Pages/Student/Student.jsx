@@ -1,12 +1,33 @@
-
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./Student.css";
+import "../Institution/Courses.css";
 import { Button, ButtonToolbar } from 'rsuite';
 import Features2 from '../Features2';
 
 
 
 const Student = () => {
+  const [courses, setCourses] = useState([]);    
+
+      useEffect(() => {
+        // Function to fetch data from the backend
+        const fetchCourses = async () => {
+            try {
+                const response = await fetch('http://35.154.125.232:3000/api/website/course'); // Replace with your actual API endpoint
+                if (!response.ok) {
+                  throw new Error('Network response was not ok');
+                }
+                const data = await response.json();
+                setCourses(data);
+              } catch (error) {
+                console.error('Error fetching data:', error);
+              }
+            };
+        
+          
+        // Call the fetch function
+        fetchCourses();
+      }, []); 
   return (<>
   <div className='student_header'>
     <h2 className='student_header_text'> Turn Your Vision Into Reality</h2>
@@ -55,6 +76,18 @@ world leading colleges</p></div>
       <Button className='student_register'>
        <p className='register_text'> Register Now</p>
       </Button>
+    </div>
+    <div className='Courses_bg'>
+      <h1 className='Courses_header'> Check out our Courses</h1>
+      {courses.map((course) => (
+        <div key={course.courseId}>
+          <h2>{course.title}</h2>
+          <p>{course.body}</p>
+          <p>Amount: ${course.amount}</p>
+          <p>Created at: {new Date(course.createdAt).toLocaleString()}</p>
+          <p>Updated at: {new Date(course.updatedAt).toLocaleString()}</p>
+        </div>
+      ))}
     </div>
     </>
   );

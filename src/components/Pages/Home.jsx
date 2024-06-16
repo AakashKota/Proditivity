@@ -74,6 +74,27 @@ const Home = () => {
     );
   };
 
+  const [email, setEmail] = useState('');
+  const [message, setMessage] = useState('');
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+
+    const response = await fetch('http://35.154.125.232:3000/api/website/newsletter', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email }),
+    });
+
+    if (response.ok) {
+      setMessage('Subscribed successfully!');
+    } else {
+      setMessage('Subscription failed or email already exists.');
+    }
+  };
+
   return (
     <>
       <div className='bg'>
@@ -107,7 +128,7 @@ const Home = () => {
       <li>Join a thriving multi-college community of like-minded students.</li>
       <li>Benefit from better communication tools with your institution.</li>
     </ul>
-    <img src="https://i.ibb.co/s5rWTSL/student.png" alt="vision" className='mission-image' />
+    <img src="https://i.ibb.co/s5rWTSL/student.png" alt="vision" className='mission-image' style={{width:"8em", height:"5em", paddingRight:"30px"}} />
     <div className="auth-container">
       <div className="Signup">Sign up now</div>
       <div className="KnowMore">Sign In</div>
@@ -124,9 +145,9 @@ const Home = () => {
               <li>Customized dashboard to monitor Faculty and Students.</li>
               <li>ONEST decentralized network integration.</li>
             </ul>
-            <img src="https://i.ibb.co/W053p1h/college.png" alt="vision" className='mission-image' />
+            <img src="https://i.ibb.co/W053p1h/college.png" alt="vision" className='mission-image' style={{width:"8em", height:"5em", paddingRight:"30px"}} />
             <div className="auth-container">
-              <div className="Signup">Sign up now</div>
+              <div className="Signup" >Sign up now</div>
               <div className="KnowMore">Sign In</div>
             </div>
           </div>
@@ -227,8 +248,11 @@ const Home = () => {
 	<h2 class="subscribe__title">Let's keep in touch</h2>
 	<p class="subscribe__copy">Subscribe to keep up with fresh news and exciting updates. We promise not to spam you!</p>
 	<div class="form">
-  <input type="email" class="form__email" placeholder="Enter your email address" />
-  <button class="form__button">
+  <input type="email" class="form__email" placeholder="Enter your email address" 
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+          />
+  <button class="form__button" type="submit">
     <div class="svg-wrapper-1">
       <div class="svg-wrapper">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">

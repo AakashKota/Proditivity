@@ -70,12 +70,23 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/contact"
+                to="/poditivitycenter"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
                 Poditivity Center
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink
+                exact
+                to="/contact"
+                activeClassName="active"
+                className="nav-links"
+                onClick={handleClick}
+              >
+                Contact us
               </NavLink>
             </li>
             <li className="nav-item">

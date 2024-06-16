@@ -115,12 +115,12 @@
     width:10%
   }
   .register_text{
-    font-size: 12px;
+    font-size: 0.9em;
     font-weight: 600;
   }
 
   .student_header{
-    margin: 0;
+    margin: -1.2rem;
     padding: 2rem;
     background: #6E84A7;
     

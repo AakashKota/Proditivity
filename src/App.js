@@ -9,9 +9,12 @@ import Footer from './components/footer/footer';
 import Student from './components/Pages/Student/Student';
 
 
-import Institute from './components/Pages/Institute';
+
+
 import { scrollTop } from 'rsuite/esm/DOMHelper';
 import ScrollToTop from './components/Scrolltotop';
+import PoditivityCenter from './components/Pages/PoditivityCenter/poditivity';
+import Institution from './components/Pages/Institution/Institution';
 
 function App() {
   return (
@@ -23,8 +26,9 @@ function App() {
         <Route exact path="/about" element={<About />} />
         <Route exact path="/blog" element={<Blog />} />
         <Route exact path="/student" element={<Student />} />
+        <Route exact path='/poditivitycenter' element={<PoditivityCenter/>}/>
         <Route exact path="/contact" element={<Contact />} />
-        <Route exact path="/Institute" element={<Institute />} />
+        <Route exact path="/Institute" element={<Institution />} />
       </Routes>
       <Footer />
     </Router>
